@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [vue(), VueJsx()],
   resolve: {
     alias: {
-      "@": resolve(__dirname, "src"),
+      "@": resolve(__dirname, "./src"),
     },
     external: [".js", ".ts", ".vue", ".tsx", ".jsx"],
   },
