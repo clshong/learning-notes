@@ -1,8 +1,8 @@
 <template>
   <div>
-    <button @click="handleStart" :disabled="countNum > 0">
+    <el-button @click="handleStart" :disabled="countNum > 0">
       {{ countNum > 0 ? `${countNum} 秒后重新获取` : "获取验证码" }}
-    </button>
+    </el-button>
   </div>
 </template>
 

@@ -1,9 +1,9 @@
 <template>
   <div class="local-storage">
-    <button @click="getLoc">拿本地数据</button>
-    <button @click="setLoc">设置本地数据</button>
-    <button @click="removeLoc">清除一个key本地数据</button>
-    <button @click="clearLoc">清空本地数据</button>
+    <el-button @click="getLoc">拿本地数据</el-button>
+    <el-button @click="setLoc">设置本地数据</el-button>
+    <el-button @click="removeLoc">清除一个key本地数据</el-button>
+    <el-button @click="clearLoc">清空本地数据</el-button>
     <span>本地数据:{{ userInfo }}</span>
   </div>
 </template>
