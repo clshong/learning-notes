@@ -1,7 +1,8 @@
 <template>
   <div class="Clipboard">
     <el-button @click="handlerText">复制</el-button>
-    <div ref="testText" class="text-3xl font-bold underline">测试复制</div>
+    <div ref="testText">测试复制</div>
+    <br />
     <el-input type="text" v-model="copyText" />
   </div>
 </template>

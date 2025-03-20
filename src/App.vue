@@ -2,16 +2,23 @@
 import CountDown from "@/pages/CountDown.vue";
 import LocalStorage from "@/pages/LocalStorage.vue";
 import Clipboard from "@/pages/Clipboard.vue";
+import Dashboard from "@/pages/Dashboard.vue";
 </script>
 
 <template>
-  <div>
+  <div class="app">
     <CountDown />
     <hr />
     <LocalStorage />
     <hr />
     <Clipboard />
+    <hr />
+    <Dashboard />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+/* .app {
+  height: 5000px;
+} */
+</style>
